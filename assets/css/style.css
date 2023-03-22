@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;300;500;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Noto Sans Bengali,sans-serif;
+}
+/* .landing4_banner_start */
+.landing4_banner{
+background-image: url("../images/banner_bg.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto;
+height: 550px;
+}
+.landing_4_logo{
+
+}
+.landing4_banner_details{
+
+}
+.landing4_banner_details h1{
+font-weight: bold;
+color: white;
+
+}
+.landing4_banner_details p{
+    
+}
+/* landing4_banner_end */
