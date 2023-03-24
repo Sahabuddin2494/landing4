@@ -42,8 +42,8 @@ color: white;
 
 /* Gopalbhoga_section_start */
 .Gopalbhoga_section_start{
-     position: relative;
-
+  
+    position: relative;
 }
 .Gopalbhoga_section_mid{
 
@@ -52,7 +52,7 @@ color: white;
     content: "";
     background-image:url("../images/About_left.png");
     height:400px;
-    width:100%;
+    width:50%;
     display:inline-block;
     position: absolute;
     left: 0px;
@@ -73,5 +73,34 @@ color: white;
     background-repeat: no-repeat;
     background-position:right;
     background-size:100%;
+}
+.Gopalbhoga_section_mid_img{
+    position: relative;
+}
+.Gopalbhoga_section_mid_para{
+ position: absolute;
+ top:35%;
+ left:25%;
+ right: 0%;
+ bottom: 0%;
+}
+.Gopalbhoga_section_mid_para h3{
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.Gopalbhoga_section_mid_para h4{
+
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+    color: #05a503;
+    margin: 15px 0px;
+}
+.Gopalbhoga_section_mid_para h2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #ff0d51;
+    font-weight: bold;
 }
 /* Gopalbhoga_section_ends */
