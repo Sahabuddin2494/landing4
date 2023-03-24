@@ -134,7 +134,6 @@ background-position: center;
 background-color: white;
 border-radius: 10px;
 text-align: center;
-height: 250px;
 }
 .Benefits_of_Mango_one_img{
 
@@ -144,5 +143,6 @@ height: 250px;
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 /* Benefits_of_Mango_end */

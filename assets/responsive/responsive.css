@@ -18,10 +18,29 @@
     right: 0%;
     bottom: 0%;
 }
+.Benefits_of_Mango_start {
+    background-image: url(../images/why_us.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
 }
 @media(min-width:576px) and (max-width:767px){
     .landing4_banner {
         height:450px;
+    }
+    .Benefits_of_Mango_start {
+        background-image: url(../images/why_us.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+    }
+    .Benefits_of_Mango_one p {
+        color: #64607d;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 400;
+        padding-bottom: 20px;
     }
 }
 @media(max-width:575.98px){
@@ -34,5 +53,20 @@
         line-height: 34px;
         color: #05a503;
         margin: 0px 0px;
+    }
+    .Benefits_of_Mango_start {
+        background-image: url(../images/why_us.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        background-color: #FEC827;
+    }
+    .Benefits_of_Mango_one p {
+        color: #64607d;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 400;
+        padding-bottom: 20px;
+        padding: 10px;
     }
 }
