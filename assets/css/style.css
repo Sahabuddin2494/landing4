@@ -104,3 +104,45 @@ color: white;
     font-weight: bold;
 }
 /* Gopalbhoga_section_ends */
+/* Why_eat_our_bananas_start */
+.Why_eat_our_bananas{
+
+}
+.Why_eat_our_bananas_details{
+    text-align: center;
+}
+.Why_eat_our_bananas_details p{
+    color: #64607d;
+   line-height:30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+/* Why_eat_our_bananas_end */
+/* Benefits_of_Mango_start */
+.Benefits_of_Mango_start{
+background-image: url("../images/why_us.png");
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;
+/* width: 100%; */
+/* height: 600px; */
+}
+.Benefits_of_Mango_title{
+    text-align: center;
+}
+.Benefits_of_Mango_one{
+background-color: white;
+border-radius: 10px;
+text-align: center;
+height: 250px;
+}
+.Benefits_of_Mango_one_img{
+
+}
+.Benefits_of_Mango_one p{
+    color: #64607d;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+/* Benefits_of_Mango_end */
