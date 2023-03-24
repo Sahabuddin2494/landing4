@@ -13,7 +13,7 @@ background-image: url("../images/banner_bg.svg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: auto;
-height: 550px;
+height:600px;
 }
 .landing_4_logo{
 
@@ -26,7 +26,16 @@ font-weight: bold;
 color: white;
 
 }
-.landing4_banner_details p{
-    
+.landing4_banner_details h5{
+ color: #FBC422; 
+ font-size: 22px;
+ line-height: 30px;   
+}
+.landing4_banner_details_btn .btn{
+    background-color: #FAC421;
+    color: white;
+    font-weight:600;
+    font-size: 18px;
+    padding: 10px 30px;
 }
 /* landing4_banner_end */
