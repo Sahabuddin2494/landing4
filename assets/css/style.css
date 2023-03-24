@@ -39,3 +39,39 @@ color: white;
     padding: 10px 30px;
 }
 /* landing4_banner_end */
+
+/* Gopalbhoga_section_start */
+.Gopalbhoga_section_start{
+     position: relative;
+
+}
+.Gopalbhoga_section_mid{
+
+}
+.Gopalbhoga_section_start::before{
+    content: "";
+    background-image:url("../images/About_left.png");
+    height:400px;
+    width:100%;
+    display:inline-block;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: auto;
+}
+.Gopalbhoga_section_start::after{
+    content: "";
+    background-image:url("../images/About_right.png");
+    height:400px;
+    width:17%;
+    display:table;
+    position: absolute;
+    right: 0px;
+    top: 30%;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:100%;
+}
+/* Gopalbhoga_section_ends */
