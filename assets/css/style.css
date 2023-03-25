@@ -4,6 +4,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     font-family: Noto Sans Bengali,sans-serif;
 }
@@ -170,6 +173,44 @@ text-align: center;
 
 }
 .customer4_feedback_one{
-    
+
 }
 /* customer_feedback_end */
+/* order_conform_section_start */
+.order_conform_section_start{
+ position: relative;
+}
+.order_conform_section_start::before{
+    content:"";
+    position: absolute;
+    background-image:url("../images/order_left.png");
+    background-position: left;
+    background-size:70% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height:300px;
+    width:20%;
+    left: 0%;
+    top:20%;
+}
+.order_conform_section_start::after{
+    content:"";
+    position: absolute;
+    background-image:url("../images/order_right.png");
+    background-position:right;
+    background-size:70% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height:300px;
+    width:20%;
+    right: 0%;
+    top:20%;
+}
+
+.order_conform_section_main{
+    text-align: center;
+}
+.order_conform_section_main h5{
+    color:#ff0d51;
+}
+/* order_conform_section_end */
